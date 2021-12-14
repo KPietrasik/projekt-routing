@@ -1,0 +1,14 @@
+header img {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -30%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Photo by Luis del Río from Pexels
+Photo by Andy Vu from Pexels
+Photo by eberhard grossgasteiger from Pexels
+Photo by Catia Matos from Pexels
+ */

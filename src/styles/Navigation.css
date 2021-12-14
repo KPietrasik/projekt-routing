@@ -1,0 +1,47 @@
+nav.main {
+   
+    padding: 0 30px 30px 0;
+}
+
+.main ul {
+    list-style-type: none;
+}
+
+nav.main a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: .2s;
+    /* animacja na dwie dziesiate sekundy  */
+}
+
+nav.main a:hover {
+    transform: translateX(20px);
+    /* przesuniecie w prawo o 20 px w poziomie */
+}
+
+nav.main a.active {
+    border-left: 10px gray solid;
+    transform: translateX(0);
+    /* w klasie active dzieki NavLink edytujemy aktywny link. transform translate na zero, zeby nie byl aktywny w trakcie hoveru */
+}
+
+/* edycja dla dziecka w 1 li: */
+nav.main li:nth-child(1) a.active {
+    border-left-color: green;
+}
+
+nav.main li:nth-child(2) a.active {
+    border-left-color: rgb(2, 2, 124);
+}
+
+nav.main li:nth-child(3) a.active {
+    border-left-color: orange;
+}
+
+nav.main li:nth-child(4) a.active {
+    border-left-color: rgb(59, 57, 57);
+}
